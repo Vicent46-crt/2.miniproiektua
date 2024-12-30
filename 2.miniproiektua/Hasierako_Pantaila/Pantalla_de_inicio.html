@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Golf.O - Enter Your Name</title>
+  <link rel="stylesheet" href="stilos.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="title">Golf.O</h1>
+
+    <!-- Sección para introducir el nombre -->
+    <div>
+      <label for="nombreUsuario">Enter your name:</label>
+      <input type="text" id="nombreUsuario" placeholder="Your name...">
+      <button id="enviarNombre">Enviar</button>
+    </div>
+
+    <p id="mensaje"></p>
+
+    <!-- Botón START para iniciar (o ir al siguiente paso) -->
+    <button class="button" id="startButton">
+      <h2>START</h2>
+    </button>
+  </div>
+
+  <!-- Cargamos la lógica en un archivo externo -->
+  <script src="main.js"></script>
+</body>
+</html>
+
